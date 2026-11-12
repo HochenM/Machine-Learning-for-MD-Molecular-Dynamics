@@ -1,0 +1,45 @@
+# This file was created Mon Nov  9 02:13:58 2026
+# Created by:
+#                      :-) GROMACS - gmx energy, 2025.5 (-:
+# 
+# Executable:   /home/moein/gromacs-2025.5-install/bin/gmx
+# Data prefix:  /home/moein/gromacs-2025.5-install
+# Working dir:  /home/moein/lysozyme
+# Command line:
+#   gmx energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROningen MAchine for Chemical Simulation
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  298.559326
+    5.000000  281.396698
+   10.000000  293.862549
+   15.000000  297.638336
+   20.000000  297.034058
+   25.000000  297.709778
+   30.000000  298.225372
+   35.000000  299.189270
+   40.000000  298.822784
+   45.000000  298.232208
+   50.000000  299.031372
+   55.000000  297.089264
+   60.000000  297.877625
+   65.000000  297.686462
+   70.000000  295.866119
+   75.000000  298.317078
+   80.000000  296.445557
+   85.000000  299.872711
+   90.000000  298.535095
+   95.000000  299.243134
+  100.000000  300.208282
